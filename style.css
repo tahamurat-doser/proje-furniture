@@ -24,11 +24,14 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 10px 50px;
+  flex-wrap: wrap;
+  margin-left: 3rem;
 }
 .input-part {
   /*  border: 2px solid green; */
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .input-part select {
@@ -82,10 +85,42 @@ font-size: 2rem;
 }
 
 .icons {
-   border: 2px solid black;
+   /* border: 2px solid black; */
    margin-right: 2rem;
 
 }
 .icons img{
     padding: 10px;
+}
+
+.navbar{
+/* border: 2px solid red; */
+display: flex;
+align-items: center;
+padding: 10px 50px;
+margin-left: 3rem;
+border-top: 1px solid #d9d9d9;
+
+}
+
+.button{
+    /* border: 2px solid blue; */
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    height: 40px;
+    font-size: 1.3rem;
+    background-color: #d9d9d9;
+    border-radius: 5px;
+    font-style: italic;
+    gap: 1rem;
+}
+
+.nav{
+    /* border: 2px solid green; */
+
+}
+li{
+display: inline-block;
+margin-left: 1rem;
 }
