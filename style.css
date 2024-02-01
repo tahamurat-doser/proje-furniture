@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Judson:ital,wght@0,400;0,700;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #efefef;
+  font-family: "Bellota", system-ui;
+  font-family: "Judson", serif;
+}
+.container {
+  /* border: 3px solid red; */
+  width: 80%;
+  margin: 50px auto;
+  border-radius: 1.5rem;
+  box-shadow: 10px 10px 50px black;
+}
+
+.iconbar {
+  /*  border: 2px solid blue; */
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+}
+.input-part {
+  /*  border: 2px solid green; */
+  display: flex;
+  align-items: center;
+}
+
+.input-part select {
+  /* border: 2px solid red; */
+  width: 188px;
+  height: 40px;
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  font-family: "Bellota", system-ui;
+}
+
+.search-input{
+   /*  border: 2px solid red;  */ 
+    width: 300px;
+    height: 40px;
+    background-color: #d9d9d9;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1rem;
+    
+}
+.search-input input{
+    background-color: initial;/* back.. a initial yazarak onun rengi taşıyıcısından almasını sağlarız. */
+    border: none;
+    font-size: 1rem;
+    padding: .5rem;
+}
+.support{
+   /*  border: 2px solid red; */
+    text-align: right;
+    margin-left: 1rem;
+
+}
+.support .support-number{
+font-size: 2rem;
+}
+
+
+.support .support-text{
+    font-size: 0.8rem;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 15px;
+  box-shadow: 1px 2px 5px black;
+  margin: 1rem;
+}
+
+.icons {
+   border: 2px solid black;
+   margin-right: 2rem;
+
+}
+.icons img{
+    padding: 10px;
+}
