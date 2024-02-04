@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Judson:ital,wght@0,400;0,700;1,400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital@0;1&display=swap');
+
 
 * {
   margin: 0;
@@ -43,37 +45,34 @@ body {
   font-family: "Bellota", system-ui;
 }
 
-.search-input{
-   /*  border: 2px solid red;  */ 
-    width: 300px;
-    height: 40px;
-    background-color: #d9d9d9;
-    border-radius: 5px;
+.search-input {
+  /*  border: 2px solid red;  */
+  width: 300px;
+  height: 40px;
+  background-color: #d9d9d9;
+  border-radius: 5px;
 
-    display: flex;
-    justify-content: space-between;
-    margin-left: 1rem;
-    
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1rem;
 }
-.search-input input{
-    background-color: initial;/* back.. a initial yazarak onun rengi taşıyıcısından almasını sağlarız. */
-    border: none;
-    font-size: 1rem;
-    padding: .5rem;
+.search-input input {
+  background-color: initial; /*! back.. a initial yazarak onun rengi taşıyıcısından almasını sağlarız. */
+  border: none;
+  font-size: 1rem;
+  padding: 0.5rem;
 }
-.support{
-   /*  border: 2px solid red; */
-    text-align: right;
-    margin-left: 1rem;
-
+.support {
+  /*  border: 2px solid red; */
+  text-align: right;
+  margin-left: 1rem;
 }
-.support .support-number{
-font-size: 2rem;
+.support .support-number {
+  font-size: 2rem;
 }
 
-
-.support .support-text{
-    font-size: 0.8rem;
+.support .support-text {
+  font-size: 0.8rem;
 }
 
 .logo {
@@ -85,42 +84,154 @@ font-size: 2rem;
 }
 
 .icons {
-   /* border: 2px solid black; */
-   margin-right: 2rem;
-
+  /* border: 2px solid black; */
+  margin-right: 2rem;
 }
-.icons img{
-    padding: 10px;
-}
-
-.navbar{
-/* border: 2px solid red; */
-display: flex;
-align-items: center;
-padding: 10px 50px;
-margin-left: 3rem;
-border-top: 1px solid #d9d9d9;
-
+.icons img {
+  padding: 10px;
 }
 
-.button{
-    /* border: 2px solid blue; */
-    display: flex;
-    align-items: center;
-    padding: 1rem;
-    height: 40px;
-    font-size: 1.3rem;
-    background-color: #d9d9d9;
-    border-radius: 5px;
-    font-style: italic;
-    gap: 1rem;
+.navbar {
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  padding: 10px 50px;
+  margin-left: 3rem;
+  border-top: 1px solid #d9d9d9;
 }
 
-.nav{
-    /* border: 2px solid green; */
+.button {
+  /* border: 2px solid blue; */
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  height: 40px;
+  font-size: 1.3rem;
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  font-style: italic;
+  gap: 1rem;
+}
+
+.nav {
+  /* border: 2px solid green; */
+}
+li {
+  display: inline-block;
+  margin-left: 1rem;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-image: url(./img/stock.jpg);
+  padding: 1rem 5rem;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+.essential {
+  background-color: #d5dee5;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px black;
+}
+.essential-text {
+  /* border: 2px solid red; */
+  padding: 20px;
+  font-style: italic;
+  letter-spacing: 0.3px;
+}
+.lighting {
+  background-color: #ffc868;
+  width: 400px;
+  height: 300px;
+  /* overflow: hidden; */
+  /*! overflow: hidden taşıyıcını dışında kalan fazlalıkları gizledim.aynı işlemi position ları kullanarakta yapabilirim. */
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px black;
+}
+
+.lighting img {
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  bottom: 0;
+}
+.light {
+  /* border: 2px solid red; */
+  width: 80%;
+  float: right;
+
+  margin-top: 20px;
+  font-style: italic;
+  padding: 2rem;
+}
+
+.categorySection{
+  background-color: #AEA08D;
 
 }
-li{
-display: inline-block;
-margin-left: 1rem;
+.cathegoryPart, .product-part{
+  padding: 2rem ;
+  font-size: 1.5rem;
+}
+.cathegories{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+.cathegory{
+  width: 20rem;
+  height: 20rem ;
+  margin: 1rem;
+  background-color: #eeecec ;
+  padding: 1rem 2px 1rem 1rem;
+  border-radius: 10px;
+  font-family: 'Josefin Slab', serif;
+}
+.cathegory img{
+width: 100%;
+height: 100%;
+object-fit: cover;/*! fotoğraflar yükseklik genişlik gibi değerler verdiğimiz de fotoğraflar sünme bozulma oluyor bunun toparlanması için bu özelliği kullanırız. */
+padding:1rem 10px 1rem 1rem ;
+border-radius: 2rem;
+
+}
+.productSection{
+  background-color:#eeecec ;
+
+}
+/* .product-part{
+  padding: 2rem;
+  font-size: 1.5rem; */
+
+
+.products{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+.product{
+  width: 20rem;
+  height: 20rem;
+  background-color: #D9D9D9;
+  margin: 1rem;
+  text-align: center;
+  box-shadow: 2px 2px 20px black;
+  border-radius:1rem ;
+  overflow: hidden;
+
+}
+.product img{
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+
 }
