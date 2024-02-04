@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Judson:ital,wght@0,400;0,700;1,400&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital@0;1&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:ital@0;1&display=swap");
 
 * {
   margin: 0;
@@ -170,68 +169,139 @@ header {
   padding: 2rem;
 }
 
-.categorySection{
-  background-color: #AEA08D;
-
+.categorySection {
+  background-color: #aea08d;
 }
-.cathegoryPart, .product-part{
-  padding: 2rem ;
+.cathegoryPart,
+.product-part {
+  padding: 2rem;
   font-size: 1.5rem;
 }
-.cathegories{
+.cathegories {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-
 }
-.cathegory{
+.cathegory {
   width: 20rem;
-  height: 20rem ;
+  height: 20rem;
   margin: 1rem;
-  background-color: #eeecec ;
+  background-color: #eeecec;
   padding: 1rem 2px 1rem 1rem;
   border-radius: 10px;
-  font-family: 'Josefin Slab', serif;
+  font-family: "Josefin Slab", serif;
 }
-.cathegory img{
-width: 100%;
-height: 100%;
-object-fit: cover;/*! fotoğraflar yükseklik genişlik gibi değerler verdiğimiz de fotoğraflar sünme bozulma oluyor bunun toparlanması için bu özelliği kullanırız. */
-padding:1rem 10px 1rem 1rem ;
-border-radius: 2rem;
-
+.cathegory img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /*! fotoğraflar yükseklik genişlik gibi değerler verdiğimiz de fotoğraflar sünme bozulma oluyor bunun toparlanması için bu özelliği kullanırız. */
+  padding: 1rem 10px 1rem 1rem;
+  border-radius: 2rem;
 }
-.productSection{
-  background-color:#eeecec ;
-
+.productSection {
+  background-color: #eeecec;
 }
 /* .product-part{
   padding: 2rem;
   font-size: 1.5rem; */
 
-
-.products{
+.products {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-
 }
-.product{
+.product {
   width: 20rem;
   height: 20rem;
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
   margin: 1rem;
   text-align: center;
   box-shadow: 2px 2px 20px black;
-  border-radius:1rem ;
+  border-radius: 1rem;
   overflow: hidden;
-
 }
-.product img{
+.product img {
   width: 100%;
   height: 90%;
   object-fit: cover;
+}
+.contact {
+  background-color: #aea08d;
+  display: flex;
+  padding: 2rem;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.expert {
+  background-color: inherit;
+  flex: 2;
+  padding: 1rem;
+}
+.lookforExpert {
+  font-family: "Bellota", system-ui;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+span{
+  color: orange;
+}
+.leaveInfo {
+  margin-top: 1rem;
+  line-height: 1.5;
+}
+.formSection {
+  background-color: inherit;
+  flex: 1;
+  width: 40%;
+  font-size: 1.1rem;
+}
+.formElemnt{
+  margin: 1.5rem 1rem;
 
+}
+.formElemnt input{
+  width: 100%;
+  background-color: inherit;
+  padding: 0.5rem 0;
+  border: none;
+  border-bottom: 1px solid rgba(68, 41, 41, 0.189);
+
+}
+.submit{
+padding: 1rem;
+border-radius: 5px;
+width: 13rem;
+height: 40px;
+font-style: italic;
+margin-left: 1rem;
+border: 1px solid black;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 1rem;
+}
+.copyright{
+display: flex;
+/* border: 2px solid blue; */
+justify-content: space-between;
+padding: 2rem;
+}
+.left{
+  /* background-color: red; */
+
+}
+.policy{
+  /* background-color: green; */
+  display: flex;
+  gap: 1rem;
+
+}
+.policy a{
+  text-decoration: none;
+  color: inherit;
+  border-bottom: 1px solid black;
 }
